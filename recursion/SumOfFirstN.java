@@ -16,6 +16,9 @@ public class SumOfFirstN {
         return n+sumOfFirstN(n-1);
     }
 
+    //Time Comlexity : O(N)
+    //Space Complexity : O(N) ---Auxaliry Space Stack---
+
     public static void main(String[] args) {
         System.out.println(sumOfFirstN(3));
         sumFirstNParam(5, 0);

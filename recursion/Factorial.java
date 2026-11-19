@@ -17,6 +17,9 @@ public class Factorial {
         return n*factorialOfNFun(n-1);
     }
 
+    //Time Comlexity : O(N)
+    //Space Complexity : O(N) ---Auxaliry Space Stack---
+
     public static void main(String[] args) {
         System.out.println(factorialOfNFun(5));
         factorialOfNPar(5, 1);
